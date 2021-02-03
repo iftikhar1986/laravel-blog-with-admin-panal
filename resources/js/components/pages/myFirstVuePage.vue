@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Menu</h1>
+        <h1>The First Vue Page</h1>
         <router-view></router-view>
     </div>
 </template>

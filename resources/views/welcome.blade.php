@@ -6,11 +6,13 @@
 
         <title>Laravel Blog</title>
 
+            <link rel="stylesheet" href="/css/all.css">
+
     </head>
     <body>
-    <div id="app">
-     <mainapp></mainapp>
-    </div>
+        <div id="app">
+            <mainapp></mainapp>
+        </div>
     </body>
 
     <script src="{{mix('/js/app.js')}}"></script>

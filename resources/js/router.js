@@ -5,9 +5,50 @@ import newRoutePage from './components/pages/newRoutePage'
 import hooks from './components/pages/basic/hooks.vue'
 import methods from './components/pages/basic/methods.vue'
 
+
+
+//Project pages
+import home from './components/pages/home'
+import tags from './components/pages/tags'
+
 Vue.use(Router)
 
 const routes = [
+    //Projects routes
+    { path: '/', 
+      component: home 
+    },
+
+    { path: '/tags', 
+      component: tags 
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     { path: '/my-new-vue-route', 
       component: firstPage 
     },
